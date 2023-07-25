@@ -129,7 +129,6 @@ def check_jiagu(filename):
     # print(azip.namelist()) # 返回所有文件夹和文件
     # print(azip.filename)# 返回该zip的文件名
     for zippath in azip.namelist():
-        if 'lib' in zippath:
             # print(zippath)
             for mark in markNameMap.keys():
                 if mark in zippath:
